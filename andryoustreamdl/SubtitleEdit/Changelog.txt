@@ -1,5 +1,157 @@
 ﻿Subtitle Edit Changelog
 
+3.5.1 (13th December 2016)
+* NEW:
+   * "mpv" media player now works on Linux  - thx var1ap 
+   * Added new subtitle format - thx Siavash
+   * Added new export format "EDL/ClipName" - thx alex
+* IMPROVED:
+   * Updated Hungarian translation - thx ZityiSoft Team
+   * Updated Russian translation - thx Elheym
+   * Updated Romanian translation - thx Mircea
+   * Updated Finnish translation - thx Teijo
+   * Updated French Translation - thx JM GBT
+   * Updated Bulgarian Translation - thx Maknol
+   * Updated Chinese translation - thx Leon/tinyboxvk
+   * Language auto-detect now includes Latvian and Lithuanian - thx rhazor
+   * Added "Custom text format" in "Batch convert" - thx Chamallow
+   * "EBU stl" now only prompt for settings in "Save as..." - thx Debora
+* FIXED:
+   * Fixed libre office spell checking urls - thx Massaguana
+   * Fixed possible crash when generating scene changes - thx Leemet
+   * Fixed issues with moving rules in "Multiple replace" - thx kristiaanvk
+   * Fixed list view issues regarding remember selected position - thx darnn
+   * EBU stl saves empty file if saving is cancelled - thx ivandrofly/jjtronics
+   * Fixed possible crash in textbox with italic - thx ivandrofly
+   * Fixed bug in file naming after extracting sub from mkv - thx mzso
+   * Fixed bottom margin in image export of SSA/ASS - thx maddox
+   * "Find" always try to find the next occurrence - thx Boulder08
+   * Fixed "Remove text for HI" issue reagarding colons - thx Boulder08
+   * Fix "Fix missing spaces" issue regarding Finnish/Swedish colons - thx Boulder08
+   * Fix two issues with "Fix common errors" - thx Tronar
+   * OCR fix rules: fix for weird Unicode comma (#x201A) - thx djc
+   * Fixed some issues with "Save original as..." - thx Stefan
+   * Fix for "DVD Studio Pro" italic handling - thx Sean
+   * Fixed saving correct value in "Delete auto-backup after months" - thx  Elheym
+   * Fixed buggy ELR time code parsing - thx darnn
+   * Fixed overlap bug in auto-duration - thx rebawest
+
+
+3.5 (26th October 2016)
+* NEW:
+   * Can now generate scene changes via FFmpeg + other scene changes improvements
+   * New shortcuts
+   * Added "Netflix Timed Text" - thx Piotr
+   * Added format "MediaTransData" - thx Alice
+   * Added new subtitle format - thx emmanuel
+   * Added even more formats - thx ivandrofly + others
+   * Auto detection of Czech and Slovak languages - thx mm6502
+* IMPROVED:
+   * Updated Korean translation - thx domddol
+   * Updated Portuguese translation - thx moob
+   * Updated Hungarian translation - thx Zityi
+   * Updated Polish translation - thx Admas
+   * Updated Catalan translation - thx Juansa
+   * Updated French, Dutch and German translations - thx xylographe
+   * Updated Brazil translation - thx Igor
+   * Updated Russian translation - thx Elheym
+   * Updated Basque translation - thx Xabier
+   * Updated simplified Chinese translation - thx Leon
+   * Custom export now supports {newline}, {tab}, {lf} and {cr} - thx aaaxx/xylographe
+   * "Multiple replace" is now organized in groups - thx aaaxx
+   * Text below video now supports bold and underline - thx Xenophon
+   * Updated mpv download link to latest version
+   * Export ssa/ass to images now remembers individual line spacing - thx von Suppé
+   * Auto translate suggests file name (<original-file-name>.<language-code>) - thx ukdtom
+   * Option to keep time codes (not add offset) in "Set video offset..." - thx Lucas
+* FIXED:
+   * Yet another fix for "Apply" / "OK" in "Remove text for HI" - thx Sami
+   * Fixed crash in export of image based subtitle formats - thx imyourshadow
+   * Minor fix for ".smi" reading - thx Eje
+   * Fixed bold/italic header tags for SSA/ASS - thx John
+   * Fixed unwanted reset of header in format "Timed Text 1.0" - thx Krystian
+   * Fixed crash in OCR - thx dreamday
+   * Minor spell check fix - thx JC
+   * Better support for wsrt files - thx serpico1
+   * Fixed EBU justification so setting from UI is used - thx Lucas
+   * Fix for "Remove text for HI" - thx Peta
+   * Fixed issue in DCinema interop regarding italics - thx Marko
+   * Fixed issue with loosing concatenated tags in ASS - thx Johan
+   * Fix regarding apostrophe in "Binary image compare" for small fonts
+   * Keep ASS/SSA style in "Batch convert" when no style is chosen - thx Thunderbolt8
+   * Fix for converting ASS to SSA
+   * Fix for choosing OCR dictionary in combobox - thx Edouard
+   * Fixed reading of split Blu-ray sup packages from mkv - thx Sinnlosvoll
+   * Minor improvement for line split in "Binary image compare" OCR
+   * Fixed Blu-ray composition number when writing .sup files - thx mbcd
+   * Fixed some minor issues in "Compare" - thx ivandrofly
+   * Fixed Tesseract dictionaries download links
+   * Fixed crash in import of .TS files - thx malgane/ivandrofly
+   * Fixed crash in OCR fix engine - thx ivandrofly
+   * Fixed a few issues with format "SubViewer 2.0" - thx fox
+   * Fixed opening AAC file as video - thx amn
+   * Some updates for "Cavena 890" character mapping - thx ghoogland
+   * Fixed bug in command line convert regarding negative offset - thx Jamakmake
+   * Fixed issue in export with border - thx Jamakmake
+   * Fixed Vob NTSC import time code sync - thx Jamakmake 
+   * Minor fixes for auto-translate - Rhodi/Keiter
+   * + Many minor fixes from ivandrofly and xylographe
+
+
+3.4.13 (12th June 2016)
+* NEW:
+   * Breton translation - thx Wanibzh29
+   * Added new subtitle formats - thx Oli/Mauricio/Leandro
+   * It's now possible to use "video offset" via "Video" menu
+   * Added support for spu/png OCR - thx claunia
+* IMPROVED:
+   * Updated Finnish translation - thx Teijo S.
+   * Updated Korean translation - thx domddol
+   * Updated Portuguese translation - thx moob
+   * Updated Polish translation - thx admas
+   * Updated Russion translation - thx Elheym
+   * Some updates for format "sif"
+   * Some updates for format "Cavena 890" - thx Elad
+   * Ctrl+Backspace in text box works better with html tags - thx xylographe
+   * Drag'n'drop to subtitle list now supports ifo/vob/mp4/mks (with subs) - thx Budman
+   * Some improvements to cmd line (mostly multiplereplace) - thx xylographe
+   * Some minor improvements for OCR via "Binary image compare"
+* FIXED:
+   * Fix updating of main list view after "Remove text for HI" + "Apply" - thx Henry
+   * Spell check "Change" / "Change all" issue regarding brackets/dash - thx jc
+   * Fixed issue where current frame rate was lost when loading new sub - thx Elad
+   * Remove bad chars when saving TTML 1.0
+   * Minor fix for "Toggle dashes" inside italic tag - thx Bryan
+   * Sometimes Dutch was detected as English
+   * Fixed bug regarding double line italic in format "iTunes Timed Text" - thx Ajax
+   * Set video position after "Reopen" - thx vmb
+   * Fix for border size in vobsub export via cmd line - thx S_E_New
+   * Adjust duration fixed for last subtitle - thx mariner
+   * Read more variations of "S_DVBSUB" from mkv files - thx dreammday
+   * Fixed some "Remove text for HI" issues - thx Thunderbolt8
+   * Fixed "Remove text for HI" issue - thx Andrew
+   * Fixed "Add missing spaces" issue - thx Andrew
+   * Fixed possible crash in spell check - thx Andrew
+   * "Fix short display time" is improved even if chars/sec still high - thx Frédéric
+   * Fixed possible crash when loading subtitle from command line - thx Félix
+   * Fixed showing correct language when opening dvd multi lang sub - thx xylographe
+   * Fixed validation of shortcuts in settings window - thx marb99/xylographe
+   * Fixed bug when converting ttml to ass - thx SwK
+   * Fixed broken link to German dictionary - thx be-sc
+   * Fixed crash in OCR when changing "Use color" - thx kurosu
+   * Fixed end-time for (some) TS files - thx kurosu
+   * Allow adding one letter words to spell check lists - thx Alexandra
+   * Fixed spell check+angled quotes - thx claunia
+   * Fixed reading of vertical alignment in (some) pac files - thx Ingo
+   * Fixed Matroska command line convert bug - thx KristjanLaane/xylographe
+   * Fixed reading UTF-32
+   * Support for "’" in scc - thx Mayte
+   * Fixed support for more characters in Cavena 890 - thx boriseetgerink
+   * Fixed rounding bug in EBU time codes - thx Alessandra
+   * Fixed crash when using MPC-HC - thx ramon18
+   * + Many minor fixes from ivandrofly and xylographe
+
+
 3.4.12 (20th March 2016)
 * NEW:
    * "mpv" can be now used as video player (has precise seeking) - thx emk2203/aaaxx/lachs0r/rossy
@@ -42,7 +194,6 @@
    * Fixed issues with extraction of audio with VLC settings repeat/loop - thx davidzou2131
    * Fix for reading of some TTML+Image files - thx snakeLo
    * Some fixes form TTML Draft 2006-04 - thx MagicGreenDragon
-   * Fixed crash when showing text "<i></i><i>..." - thx montillasauces
    * Some optimizations for format "Uknown 41" - thx Ivandrofly
    * Some fixes for line number in source text box - thx Ivandrofly
    * Some fixes "Karaoke effect" - thx Ivandrofly

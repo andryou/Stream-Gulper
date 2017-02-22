@@ -2,7 +2,7 @@
 <Language Name="dansk">
   <General>
     <Title>Subtitle Edit</Title>
-    <Version>3.4.12</Version>
+    <Version>3.5.1</Version>
     <TranslatedBy>Oversat til dansk af Nikse (mailto:nikse.dk@gmail.com)</TranslatedBy>
     <CultureName>da-DK</CultureName>
     <HelpFile />
@@ -684,6 +684,7 @@ Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
     <Frames>Rammer</Frames>
     <Seconds>Sekunder</Seconds>
     <Milliseconds>Millisekunder</Milliseconds>
+    <GetSceneChangesWithFfmpeg>Generer sceneskift med FFmpeg</GetSceneChangesWithFfmpeg>
   </ImportSceneChanges>
   <ImportText>
     <Title>Importer tekst</Title>
@@ -722,6 +723,150 @@ Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
     <TotalNumberOfLinesX>Total antal linjer: {0:#,###,###}</TotalNumberOfLinesX>
     <Note>Bemærk: Filer skal allerede have korrekte tidskoder</Note>
   </JoinSubtitles>
+  <LanguageNames>
+    <NotSpecified>Ikke angivet</NotSpecified>
+    <UnknownCodeX>Ukendt ({0})</UnknownCodeX>
+    <aaName>afar</aaName>
+    <abName>abkhasisk</abName>
+    <afName>afrikaans</afName>
+    <amName>amharisk</amName>
+    <arName>arabisk</arName>
+    <asName>assamesisk</asName>
+    <ayName>aymara</ayName>
+    <azName>aserbajdsjansk</azName>
+    <baName>bashkir</baName>
+    <beName>hviderussisk</beName>
+    <bgName>bulgarsk</bgName>
+    <bhName>bihari</bhName>
+    <biName>bislama</biName>
+    <bnName>bengali</bnName>
+    <boName>tibetansk</boName>
+    <brName>bretonsk</brName>
+    <caName>catalansk</caName>
+    <coName>korsikansk</coName>
+    <csName>tjekkisk</csName>
+    <cyName>walisisk</cyName>
+    <daName>dansk</daName>
+    <deName>tysk</deName>
+    <dzName>dzongkha</dzName>
+    <elName>græsk</elName>
+    <enName>engelsk</enName>
+    <eoName>esperanto</eoName>
+    <esName>spansk</esName>
+    <etName>estisk</etName>
+    <euName>baskisk</euName>
+    <faName>persisk</faName>
+    <fiName>finsk</fiName>
+    <fjName>fijiansk</fjName>
+    <foName>færøsk</foName>
+    <frName>fransk</frName>
+    <fyName>frisisk</fyName>
+    <gaName>irsk</gaName>
+    <gdName>skotsk gælisk</gdName>
+    <glName>galicisk</glName>
+    <gnName>guarani</gnName>
+    <guName>gujarati</guName>
+    <haName>hausa</haName>
+    <heName>hebraisk</heName>
+    <hiName>hindi</hiName>
+    <hrName>kroatisk</hrName>
+    <huName>ungarsk</huName>
+    <hyName>armensk</hyName>
+    <iaName>interlingua</iaName>
+    <idName>indonesisk</idName>
+    <ieName>interlingue</ieName>
+    <ikName>inupiaq</ikName>
+    <isName>islandsk</isName>
+    <itName>italiensk</itName>
+    <iuName>inuktitut</iuName>
+    <jaName>japansk</jaName>
+    <jvName>javanesisk</jvName>
+    <kaName>georgisk</kaName>
+    <kkName>kasakhisk</kkName>
+    <klName>grønlandsk</klName>
+    <kmName>khmer</kmName>
+    <knName>kannada</knName>
+    <koName>koreansk</koName>
+    <ksName>kashmiri</ksName>
+    <kuName>kurdisk</kuName>
+    <kyName>kirgisisk</kyName>
+    <laName>latin</laName>
+    <lbName>luxembourgsk</lbName>
+    <lnName>lingala</lnName>
+    <loName>lao</loName>
+    <ltName>litauisk</ltName>
+    <lvName>lettisk</lvName>
+    <mgName>malagassisk</mgName>
+    <miName>maori</miName>
+    <mkName>makedonsk</mkName>
+    <mlName>malayalam</mlName>
+    <mnName>mongolsk</mnName>
+    <moName>moldovisk</moName>
+    <mrName>marathisk</mrName>
+    <msName>malajisk</msName>
+    <mtName>maltesisk</mtName>
+    <myName>burmesisk</myName>
+    <naName>nauru</naName>
+    <neName>nepalesisk</neName>
+    <nlName>hollandsk</nlName>
+    <noName>norsk</noName>
+    <ocName>occitansk</ocName>
+    <omName>oromo</omName>
+    <orName>oriya</orName>
+    <paName>punjabi</paName>
+    <plName>polsk</plName>
+    <psName>pashto</psName>
+    <ptName>portugisisk</ptName>
+    <quName>quechua</quName>
+    <rmName>rætoromansk</rmName>
+    <rnName>rundi</rnName>
+    <roName>rumænsk</roName>
+    <ruName>russisk</ruName>
+    <rwName>kinyarwanda</rwName>
+    <saName>sanskrit</saName>
+    <sdName>sindhi</sdName>
+    <sgName>sango</sgName>
+    <shName>serbokroatisk</shName>
+    <siName>singalesisk</siName>
+    <skName>slovakisk</skName>
+    <slName>slovensk</slName>
+    <smName>samoansk</smName>
+    <snName>shona</snName>
+    <soName>somalisk</soName>
+    <sqName>albansk</sqName>
+    <srName>serbisk</srName>
+    <ssName>swati</ssName>
+    <stName>sydsotho</stName>
+    <suName>sundanesisk</suName>
+    <svName>svensk</svName>
+    <swName>swahili</swName>
+    <taName>tamilsk</taName>
+    <teName>telugu</teName>
+    <tgName>tajik</tgName>
+    <thName>thai</thName>
+    <tiName>tigrinya</tiName>
+    <tkName>turkmensk</tkName>
+    <tlName>tagalog</tlName>
+    <tnName>tswana</tnName>
+    <toName>tongansk</toName>
+    <trName>tyrkisk</trName>
+    <tsName>tsonga</tsName>
+    <ttName>tatarisk</ttName>
+    <twName>twi</twName>
+    <ugName>uygurisk</ugName>
+    <ukName>ukrainsk</ukName>
+    <urName>urdu</urName>
+    <uzName>usbekisk</uzName>
+    <viName>vietnamesisk</viName>
+    <voName>volapyk</voName>
+    <woName>wolof</woName>
+    <xhName>xhosa</xhName>
+    <yiName>jiddisch</yiName>
+    <yoName>yoruba</yoName>
+    <zaName>zhuang</zaName>
+    <zhName>kinesisk</zhName>
+    <zuName>zulu</zuName>
+  </LanguageNames>
   <Main>
     <Menu>
       <File>
@@ -841,6 +986,7 @@ Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
         <OpenDvd>Åbn DVD...</OpenDvd>
         <ChooseAudioTrack>Vælg lydspor</ChooseAudioTrack>
         <CloseVideo>Luk videofil</CloseVideo>
+        <SetVideoOffset>Indstil video offset...</SetVideoOffset>
         <ImportSceneChanges>Importer sceneskift...</ImportSceneChanges>
         <RemoveSceneChanges>Fjern sceneskift</RemoveSceneChanges>
         <WaveformBatchGenerate>Batch generer bølgeformer...</WaveformBatchGenerate>
@@ -899,6 +1045,7 @@ Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
         <Find>Find</Find>
         <Replace>Erstat</Replace>
         <FixCommonErrors>Fix almindelige fejl</FixCommonErrors>
+        <RemoveTextForHi>Fjern tekst for hørehæmmede</RemoveTextForHi>
         <VisualSync>Visuel synkroniser</VisualSync>
         <SpellCheck>Stavekontrol</SpellCheck>
         <Settings>Indstillinger</Settings>
@@ -1035,7 +1182,6 @@ Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
     <BeforeVisualSync>Før visuel synkroniser</BeforeVisualSync>
     <VisualSyncPerformedOnSelectedLines>Visual synkronisering udføres på udvalgte linjer</VisualSyncPerformedOnSelectedLines>
     <VisualSyncPerformed>Visuel synkronisering udført</VisualSyncPerformed>
-    <ImportThisVobSubSubtitle>Importer denne VobSub undertekst?</ImportThisVobSubSubtitle>
     <FileXIsLargerThan10MB>Filen er større end 10 MB: {0}</FileXIsLargerThan10MB>
     <ContinueAnyway>Fortsæt alligevel?</ContinueAnyway>
     <BeforeLoadOf>Før indlæsning af {0}</BeforeLoadOf>
@@ -1359,7 +1505,7 @@ Hvis du har redigeret denne fil med Subtitle Edit du måske finde en backup via 
     <CaseSensitive>Versal følsom</CaseSensitive>
     <RegularExpression>Regulært udtryk</RegularExpression>
     <LinesFoundX>Linjer fundet: {0}</LinesFoundX>
-    <Delete>Slet</Delete>
+    <Remove>Fjern</Remove>
     <Add>Tilføj</Add>
     <Update>Opdater</Update>
     <Enabled>Aktiv</Enabled>
@@ -1372,6 +1518,12 @@ Hvis du har redigeret denne fil med Subtitle Edit du måske finde en backup via 
     <Rules>Eksport regler</Rules>
     <MoveToTop>Flyt til top</MoveToTop>
     <MoveToBottom>Flyt til bund</MoveToBottom>
+    <MoveSelectedRulesToGroup>Flyt valgte regler gruppe</MoveSelectedRulesToGroup>
+    <Groups>Grupper</Groups>
+    <RulesForGroupX>Regler for gruppen "{0}"</RulesForGroupX>
+    <GroupName>Gruppenavn</GroupName>
+    <RenameGroup>Omdøb gruppe...</RenameGroup>
+    <NewGroup>Ny gruppe...</NewGroup>
   </MultipleReplace>
   <NetworkChat>
     <Title>Chat</Title>
@@ -1530,6 +1682,7 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <DurationMinimumMilliseconds>Min. varighed, millisekunder</DurationMinimumMilliseconds>
     <DurationMaximumMilliseconds>Max. varighed, millisekunder</DurationMaximumMilliseconds>
     <MinimumGapMilliseconds>Min. mellemrum mellem undertekster i ms</MinimumGapMilliseconds>
+    <MaximumLines>Max. antal linjer</MaximumLines>
     <SubtitleFont>undertekst skrifttype</SubtitleFont>
     <SubtitleFontSize>undertekst skriftstørrelse</SubtitleFontSize>
     <SubtitleBold>Fed</SubtitleBold>
@@ -1557,6 +1710,10 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <AutoBackupEveryMinute>Hvert minut</AutoBackupEveryMinute>
     <AutoBackupEveryFiveMinutes>Hver 5. minut</AutoBackupEveryFiveMinutes>
     <AutoBackupEveryFifteenMinutes>Hver 15. minut</AutoBackupEveryFifteenMinutes>
+    <AutoBackupDeleteAfter>Slet efter</AutoBackupDeleteAfter>
+    <AutoBackupDeleteAfterOneMonth>En måned</AutoBackupDeleteAfterOneMonth>
+    <AutoBackupDeleteAfterThreeMonths>3 måneder</AutoBackupDeleteAfterThreeMonths>
+    <AutoBackupDeleteAfterSixMonths>6 måneder</AutoBackupDeleteAfterSixMonths>
     <CheckForUpdates>Tjek for opdateringer</CheckForUpdates>
     <AllowEditOfOriginalSubtitle>Tillad redigering af originale undertekst</AllowEditOfOriginalSubtitle>
     <PromptDeleteLines>Spørg om slet af linjer</PromptDeleteLines>
@@ -1639,6 +1796,7 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <FirstPlusX>Første + {0}</FirstPlusX>
     <LastMinusX>Sidste - {0}</LastMinusX>
     <FixCommonerrors>Ret almindelige fejl</FixCommonerrors>
+    <RemoveTextForHi>Fjern tekst for svagthørende</RemoveTextForHi>
     <MergeLinesShorterThan>Flet linjer kortere end</MergeLinesShorterThan>
     <MusicSymbol>Musik symbol</MusicSymbol>
     <MusicSymbolsToReplace>Musik symboler der skal erstattes (adskilt af mellemrum)</MusicSymbolsToReplace>
@@ -1653,7 +1811,6 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <Key>Key</Key>
     <TextBox>Tekstboks</TextBox>
     <UpdateShortcut>Opdater</UpdateShortcut>
-    <ShortcutIsNotValid>Genvej er ikke gyldig: {0}</ShortcutIsNotValid>
     <ToggleDockUndockOfVideoControls>Skift dok/frigør af video kontrol</ToggleDockUndockOfVideoControls>
     <CreateSetEndAddNewAndGoToNew>Sæt slut, tilføj ny og gå til ny</CreateSetEndAddNewAndGoToNew>
     <AdjustViaEndAutoStartAndGoToNext>Juster via slutposition og gå til næste</AdjustViaEndAutoStartAndGoToNext>
@@ -1666,12 +1823,15 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <AdjustSetStartTimeKeepDuration>Sæt starttid, behold varighed</AdjustSetStartTimeKeepDuration>
     <AdjustSetEndAndOffsetTheRest>Set sluttid, juster resten</AdjustSetEndAndOffsetTheRest>
     <AdjustSetEndAndOffsetTheRestAndGoToNext>Set sluttid, juster resten og gå til næste</AdjustSetEndAndOffsetTheRestAndGoToNext>
+    <AdjustExtendCurrentSubtitle>Forlæng aktuelle linje til næste undertekster eller max varighed</AdjustExtendCurrentSubtitle>
+    <RecalculateDurationOfCurrentSubtitle>Genberegn varighed valgte undertekst</RecalculateDurationOfCurrentSubtitle>
     <MainCreateStartDownEndUp>Opret ny på tast-ned, sæt sluttid ved tast-op</MainCreateStartDownEndUp>
     <MergeDialog>Flet dialog (indsæt tankestreger)</MergeDialog>
     <GoToNext>Gå til næste linje</GoToNext>
     <GoToPrevious>Gå til forrige line</GoToPrevious>
     <GoToCurrentSubtitleStart>Gå til nuværende linje start</GoToCurrentSubtitleStart>
     <GoToCurrentSubtitleEnd>Gå til nuværende linje slut</GoToCurrentSubtitleEnd>
+    <GoToNextSubtitleAndFocusVideo>Gå til næste linje og sæt video position</GoToNextSubtitleAndFocusVideo>
     <ToggleFocus>Skift fokus imellem liste visning og undertekst tekstboks</ToggleFocus>
     <ToggleDialogDashes>Toggle dialog tankestreger</ToggleDialogDashes>
     <Alignment>Justering (valgte linier)</Alignment>
@@ -1689,6 +1849,8 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <WaveformPlayNewSelectionEnd>Afspil slutningen af markering</WaveformPlayNewSelectionEnd>
     <WaveformPlayFirstSelectedSubtitle>Spil første valgte undertekst</WaveformPlayFirstSelectedSubtitle>
     <WaveformFocusListView>Fokuser listevisning</WaveformFocusListView>
+    <WaveformGoToNextSceneChange>Gå til næste sceneskift</WaveformGoToNextSceneChange>
+    <WaveformToggleSceneChange>Toggle sceneskift</WaveformToggleSceneChange>
     <GoBack1Frame>En frame tilbage</GoBack1Frame>
     <GoForward1Frame>En frame frem</GoForward1Frame>
     <GoBack100Milliseconds>100 ms tilbage</GoBack100Milliseconds>
@@ -1697,6 +1859,8 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <GoForward500Milliseconds>500 ms frem</GoForward500Milliseconds>
     <GoBack1Second>Et sekund tilbage</GoBack1Second>
     <GoForward1Second>Et sekund fremad</GoForward1Second>
+    <GoBack5Seconds>Fem sekunder tilbage</GoBack5Seconds>
+    <GoForward5Seconds>Fem sekunder frem</GoForward5Seconds>
     <TogglePlayPause>Skift mellem afspil og pause</TogglePlayPause>
     <Pause>Pause</Pause>
     <Fullscreen>Fuldskærm</Fullscreen>
@@ -1711,7 +1875,7 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <SyntaxColorDurationIfTooSmall>Farve - varighed, hvis for kort</SyntaxColorDurationIfTooSmall>
     <SyntaxColorDurationIfTooLarge>Farve - varighed, hvis for længe</SyntaxColorDurationIfTooLarge>
     <SyntaxColorTextIfTooLong>Farve - tekst, hvis for lang</SyntaxColorTextIfTooLong>
-    <SyntaxColorTextMoreThanXLines>Farve - tekst, hvis mere end linjer:</SyntaxColorTextMoreThanXLines>
+    <SyntaxColorTextMoreThanMaxLines>Farve - tekst, hvis mere end {0} linjer</SyntaxColorTextMoreThanMaxLines>
     <SyntaxColorOverlap>Farve - tidskode overlapper</SyntaxColorOverlap>
     <SyntaxErrorColor>Fejl farve</SyntaxErrorColor>
     <GoToFirstSelectedLine>Gå til første valgte linje</GoToFirstSelectedLine>
@@ -1721,6 +1885,8 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <ToggleTranslationMode>Toggle oversættelses-tilstand</ToggleTranslationMode>
     <SwitchOriginalAndTranslation>Byt original og oversættelse</SwitchOriginalAndTranslation>
     <MergeOriginalAndTranslation>Flet original og oversættelse</MergeOriginalAndTranslation>
+    <MergeWithNext>Flet med næste</MergeWithNext>
+    <MergeWithPrevious>Flet med forrige</MergeWithPrevious>
     <ShortcutIsAlreadyDefinedX>Genvej allerede defineret:
 {0}</ShortcutIsAlreadyDefinedX>
     <ToggleTranslationAndOriginalInPreviews>Skift mellem oversættelse og original i video/audio preview</ToggleTranslationAndOriginalInPreviews>
@@ -1755,6 +1921,8 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <Title>Indstil video offset</Title>
     <Description>Indstil video offset (undertekster bør ikke følge real video tid, men fx +10 timer)</Description>
     <RelativeToCurrentVideoPosition>I forhold til aktuelle video position</RelativeToCurrentVideoPosition>
+    <KeepTimeCodes>Behold eksisterende tidskoder (tilføj ikke video offset)</KeepTimeCodes>
+    <Reset>Reset</Reset>
   </SetVideoOffset>
   <ShowEarlierLater>
     <Title>Vis valgte linjer tidligere/senere</Title>
@@ -2084,6 +2252,17 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <Title>Juster de-kursiv faktor</Title>
     <Description>Juster værdi indtil tekst stil er normalt og ikke kursiv. Bemærk, at det oprindelige billede skal være kursiv.</Description>
   </VobSubOcrSetItalicFactor>
+  <Watermark>
+    <Title>Vandmærke</Title>
+    <WatermarkX>Vandmærke: {0}</WatermarkX>
+    <GenerateWatermarkTitle>Generer vandmærke</GenerateWatermarkTitle>
+    <SpreadOverEntireSubtitle>Spredt over hele underteksten</SpreadOverEntireSubtitle>
+    <CurrentLineOnlyX>Kun på den aktuelle linje: {0}</CurrentLineOnlyX>
+    <Generate>Generer</Generate>
+    <Remove>Fjern</Remove>
+    <BeforeWatermark>Før "Vandmærke"</BeforeWatermark>
+    <ErrorUnicodeEncodingOnly>"Vandmærke" virker kun med unicode fil kodning.</ErrorUnicodeEncodingOnly>
+  </Watermark>
   <Waveform>
     <ClickToAddWaveform>Klik for at tilføje audio kurve</ClickToAddWaveform>
     <ClickToAddWaveformAndSpectrogram>Klik for at tilføje bølgeform/spektrogram</ClickToAddWaveformAndSpectrogram>
@@ -2102,6 +2281,8 @@ kan redigere i samme undertekst fil (fælles online projekt)</Information>
     <ShowWaveformAndSpectrogram>Vis bølgeform og spektrogram</ShowWaveformAndSpectrogram>
     <ShowWaveformOnly>Vis kun bølgeform</ShowWaveformOnly>
     <ShowSpectrogramOnly>Vis kun spektrogram</ShowSpectrogramOnly>
+    <AddSceneChange>Tilføj sceneskift</AddSceneChange>
+    <RemoveSceneChange>Fjern sceneskift</RemoveSceneChange>
     <GuessTimeCodes>Gæt tidskoder...</GuessTimeCodes>
     <SeekSilence>Søg tavshed...</SeekSilence>
   </Waveform>

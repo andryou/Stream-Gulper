@@ -2,7 +2,7 @@
 <Language Name="italiano">
   <General>
     <Title>Subtitle Edit</Title>
-    <Version>3.4.12</Version>
+    <Version>3.5.1</Version>
     <TranslatedBy>Traduzione Italiana SilverDrake (giurdi@katamail.com)</TranslatedBy>
     <CultureName>it-IT</CultureName>
     <HelpFile />
@@ -712,6 +712,146 @@ Nota: Controlla lo spazio libero sul disco.</WaveFileMalformed>
     <TotalNumberOfLinesX>Numero di linee totale: {0:#,###,###}</TotalNumberOfLinesX>
     <Note>Nota: I file devono già avere i time code corretti</Note>
   </JoinSubtitles>
+  <LanguageNames>
+    <aaName>afar</aaName>
+    <abName>abcaso</abName>
+    <afName>afrikaans</afName>
+    <amName>amarico</amName>
+    <arName>arabo</arName>
+    <asName>assamese</asName>
+    <ayName>aymara</ayName>
+    <azName>azerbaigiano</azName>
+    <baName>baschiro</baName>
+    <beName>bielorusso</beName>
+    <bgName>bulgaro</bgName>
+    <biName>bislama</biName>
+    <bnName>bengalese</bnName>
+    <boName>tibetano</boName>
+    <brName>bretone</brName>
+    <caName>catalano</caName>
+    <coName>corso</coName>
+    <csName>ceco</csName>
+    <cyName>gallese</cyName>
+    <daName>danese</daName>
+    <deName>tedesco</deName>
+    <dzName>dzongkha</dzName>
+    <elName>greco</elName>
+    <enName>inglese</enName>
+    <eoName>esperanto</eoName>
+    <esName>spagnolo</esName>
+    <etName>estone</etName>
+    <euName>basco</euName>
+    <faName>persiano</faName>
+    <fiName>finlandese</fiName>
+    <fjName>figiano</fjName>
+    <foName>faroese</foName>
+    <frName>francese</frName>
+    <fyName>frisone occidentale</fyName>
+    <gaName>irlandese</gaName>
+    <gdName>gaelico scozzese</gdName>
+    <glName>galiziano</glName>
+    <gnName>guaraní</gnName>
+    <guName>gujarati</guName>
+    <haName>hausa</haName>
+    <heName>ebraico</heName>
+    <hiName>hindi</hiName>
+    <hrName>croato</hrName>
+    <huName>ungherese</huName>
+    <hyName>armeno</hyName>
+    <iaName>interlingua</iaName>
+    <idName>indonesiano</idName>
+    <ieName>interlingue</ieName>
+    <ikName>inupiak</ikName>
+    <isName>islandese</isName>
+    <itName>italiano</itName>
+    <iuName>inuktitut</iuName>
+    <jaName>giapponese</jaName>
+    <jvName>giavanese</jvName>
+    <kaName>georgiano</kaName>
+    <kkName>kazako</kkName>
+    <klName>groenlandese</klName>
+    <kmName>khmer</kmName>
+    <knName>kannada</knName>
+    <koName>coreano</koName>
+    <ksName>kashmiri</ksName>
+    <kuName>curdo</kuName>
+    <kyName>chirghiso</kyName>
+    <laName>latino</laName>
+    <lbName>lussemburghese</lbName>
+    <lnName>lingala</lnName>
+    <loName>lao</loName>
+    <ltName>lituano</ltName>
+    <lvName>lettone</lvName>
+    <mgName>malgascio</mgName>
+    <miName>maori</miName>
+    <mkName>macedone</mkName>
+    <mlName>malayalam</mlName>
+    <mnName>mongolo</mnName>
+    <mrName>marathi</mrName>
+    <msName>malese</msName>
+    <mtName>maltese</mtName>
+    <myName>birmano</myName>
+    <naName>nauru</naName>
+    <neName>nepalese</neName>
+    <nlName>olandese</nlName>
+    <noName>norvegese</noName>
+    <ocName>occitano</ocName>
+    <omName>oromo</omName>
+    <orName>oriya</orName>
+    <paName>punjabi</paName>
+    <plName>polacco</plName>
+    <psName>pashto</psName>
+    <ptName>portoghese</ptName>
+    <quName>quechua</quName>
+    <rmName>romancio</rmName>
+    <rnName>rundi</rnName>
+    <roName>rumeno</roName>
+    <ruName>russo</ruName>
+    <rwName>kinyarwanda</rwName>
+    <saName>sanscrito</saName>
+    <sdName>sindhi</sdName>
+    <sgName>sango</sgName>
+    <shName>serbo-croato</shName>
+    <siName>singalese</siName>
+    <skName>slovacco</skName>
+    <slName>sloveno</slName>
+    <smName>samoano</smName>
+    <snName>shona</snName>
+    <soName>somalo</soName>
+    <sqName>albanese</sqName>
+    <srName>serbo</srName>
+    <ssName>swati</ssName>
+    <stName>sotho del sud</stName>
+    <suName>sundanese</suName>
+    <svName>svedese</svName>
+    <swName>swahili</swName>
+    <taName>tamil</taName>
+    <teName>telugu</teName>
+    <tgName>tagico</tgName>
+    <thName>thai</thName>
+    <tiName>tigrino</tiName>
+    <tkName>turcomanno</tkName>
+    <tlName>tagalog</tlName>
+    <tnName>tswana</tnName>
+    <toName>tongano</toName>
+    <trName>turco</trName>
+    <tsName>tsonga</tsName>
+    <ttName>tataro</ttName>
+    <twName>ci</twName>
+    <ugName>uiguro</ugName>
+    <ukName>ucraino</ukName>
+    <urName>urdu</urName>
+    <uzName>usbeco</uzName>
+    <viName>vietnamita</viName>
+    <voName>volapük</voName>
+    <woName>wolof</woName>
+    <xhName>xhosa</xhName>
+    <yiName>yiddish</yiName>
+    <yoName>yoruba</yoName>
+    <zaName>zhuang</zaName>
+    <zhName>cinese</zhName>
+    <zuName>zulu</zuName>
+  </LanguageNames>
   <Main>
     <Menu>
       <File>
@@ -1019,7 +1159,6 @@ Nota: Controlla lo spazio libero sul disco.</WaveFileMalformed>
     <BeforeVisualSync>Prima di Sincronizzazione visiva</BeforeVisualSync>
     <VisualSyncPerformedOnSelectedLines>Sincronizzazione visiva eseguita sulle linee selezionate</VisualSyncPerformedOnSelectedLines>
     <VisualSyncPerformed>Sincronizzazione visiva eseguita</VisualSyncPerformed>
-    <ImportThisVobSubSubtitle>Importare questo sottotitolo VobSub?</ImportThisVobSubSubtitle>
     <FileXIsLargerThan10MB>Il file è più grande di10 MB: {0}</FileXIsLargerThan10MB>
     <ContinueAnyway>Continuare ugualmente?</ContinueAnyway>
     <BeforeLoadOf>Prima di caricare {0}</BeforeLoadOf>
@@ -1340,7 +1479,7 @@ la codifica ANSI andranno perse. Salvare comunque?</UnicodeCharactersAnsiWarning
     <CaseSensitive>Sensibile a MAIUSCOLE/minuscole</CaseSensitive>
     <RegularExpression>Espressione regolare</RegularExpression>
     <LinesFoundX>Linee trovate: {0}</LinesFoundX>
-    <Delete>Cancella</Delete>
+    <Remove>Cancella</Remove>
     <Add>Aggiungi</Add>
     <Update>&amp;Aggiorna</Update>
     <Enabled>Abilitato</Enabled>
@@ -1626,7 +1765,6 @@ modificare lo stesso file di sottotitolo (collaborazione)</Information>
     <Key>Tasto</Key>
     <TextBox>Textbox</TextBox>
     <UpdateShortcut>Aggiorna scorciatoia</UpdateShortcut>
-    <ShortcutIsNotValid>Scorciatoia non valida: {0}</ShortcutIsNotValid>
     <ToggleDockUndockOfVideoControls>Alterna blocca/sblocca controlli video</ToggleDockUndockOfVideoControls>
     <CreateSetEndAddNewAndGoToNew>Imposta fine, aggiungi nuovo e vai a nuovo</CreateSetEndAddNewAndGoToNew>
     <AdjustViaEndAutoStartAndGoToNext>Regola via posizione finale e vai al successivo</AdjustViaEndAutoStartAndGoToNext>
@@ -1682,7 +1820,7 @@ modificare lo stesso file di sottotitolo (collaborazione)</Information>
     <SyntaxColorDurationIfTooSmall>Colora durata se troppo corta</SyntaxColorDurationIfTooSmall>
     <SyntaxColorDurationIfTooLarge>Colora durata se troppo lunga</SyntaxColorDurationIfTooLarge>
     <SyntaxColorTextIfTooLong>Colora testo se troppo lungo</SyntaxColorTextIfTooLong>
-    <SyntaxColorTextMoreThanXLines>Colora testo se più lungo di linee:</SyntaxColorTextMoreThanXLines>
+    <SyntaxColorTextMoreThanMaxLines>Colora testo se più lungo di {0} linee</SyntaxColorTextMoreThanMaxLines>
     <SyntaxColorOverlap>Colora sovrapposizione time code</SyntaxColorOverlap>
     <SyntaxErrorColor>Colore per errore</SyntaxErrorColor>
     <GoToFirstSelectedLine>Vai alla prima linea selezionata</GoToFirstSelectedLine>

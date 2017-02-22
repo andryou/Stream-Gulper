@@ -2,7 +2,7 @@
 <Language Name="français">
   <General>
     <Title>Subtitle Edit</Title>
-    <Version>3.4.12</Version>
+    <Version>3.5.1</Version>
     <TranslatedBy>Traduction française par JM GBT</TranslatedBy>
     <CultureName>fr-FR</CultureName>
     <HelpFile />
@@ -335,7 +335,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
     <AbortedByUser>Interrompu par l'utilisateur</AbortedByUser>
     <ReadingSubtitleData>Lecture données des sous-titres...</ReadingSubtitleData>
     <RippingVobFileXofYZ>Ripper fichier VOB {1} sur {2}: {0}</RippingVobFileXofYZ>
-    <WrongIfoType>Mauvais type de fichier IFO ‘’{0}’’, il doit être de type ‘’DVDVIDEO-VTS’’. {1} Essayer autre fichier que « {2} »</WrongIfoType>
+    <WrongIfoType>Mauvais type de fichier IFO ‘{0}’, il doit être de type ‘DVDVIDEO-VTS’.{1}Essayer autre fichier que « {2} »</WrongIfoType>
   </DvdSubRip>
   <DvdSubRipChooseLanguage>
     <Title>Choix de la langue</Title>
@@ -687,6 +687,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
     <Frames>Frames</Frames>
     <Seconds>Secondes</Seconds>
     <Milliseconds>Millisecondes</Milliseconds>
+    <GetSceneChangesWithFfmpeg>Utiliser FFmpeg pour obtenir les changements de scène</GetSceneChangesWithFfmpeg>
   </ImportSceneChanges>
   <ImportText>
     <Title>Importer texte</Title>
@@ -725,6 +726,150 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
     <TotalNumberOfLinesX>Nombre total de lignes: {0:#,###,###}</TotalNumberOfLinesX>
     <Note>Note : Il faut ajuster les timecodes avant de fusionner les sous-titres</Note>
   </JoinSubtitles>
+  <LanguageNames>
+    <NotSpecified>Indéterminé</NotSpecified>
+    <UnknownCodeX>Inconnu ({0})</UnknownCodeX>
+    <aaName>afar</aaName>
+    <abName>abkhaze</abName>
+    <afName>afrikaans</afName>
+    <amName>amharique</amName>
+    <arName>arabe</arName>
+    <asName>assamais</asName>
+    <ayName>aymara</ayName>
+    <azName>azéri</azName>
+    <baName>bachkir</baName>
+    <beName>biélorusse</beName>
+    <bgName>bulgare</bgName>
+    <bhName>bihari</bhName>
+    <biName>bichelamar</biName>
+    <bnName>bengali</bnName>
+    <boName>tibétain</boName>
+    <brName>breton</brName>
+    <caName>catalan</caName>
+    <coName>corse</coName>
+    <csName>tchèque</csName>
+    <cyName>gallois</cyName>
+    <daName>danois</daName>
+    <deName>allemand</deName>
+    <dzName>dzongkha</dzName>
+    <elName>grec</elName>
+    <enName>anglais</enName>
+    <eoName>espéranto</eoName>
+    <esName>espagnol</esName>
+    <etName>estonien</etName>
+    <euName>basque</euName>
+    <faName>persan</faName>
+    <fiName>finnois</fiName>
+    <fjName>fidjien</fjName>
+    <foName>féroïen</foName>
+    <frName>français</frName>
+    <fyName>frison occidental</fyName>
+    <gaName>irlandais</gaName>
+    <gdName>gaélique écossais</gdName>
+    <glName>galicien</glName>
+    <gnName>guarani</gnName>
+    <guName>gujarati</guName>
+    <haName>haoussa</haName>
+    <heName>hébreu</heName>
+    <hiName>hindi</hiName>
+    <hrName>croate</hrName>
+    <huName>hongrois</huName>
+    <hyName>arménien</hyName>
+    <iaName>interlingua</iaName>
+    <idName>indonésien</idName>
+    <ieName>interlingue</ieName>
+    <ikName>inupiaq</ikName>
+    <isName>islandais</isName>
+    <itName>italien</itName>
+    <iuName>inuktitut</iuName>
+    <jaName>japonais</jaName>
+    <jvName>javanais</jvName>
+    <kaName>géorgien</kaName>
+    <kkName>kazakh</kkName>
+    <klName>groenlandais</klName>
+    <kmName>khmer</kmName>
+    <knName>kannada</knName>
+    <koName>coréen</koName>
+    <ksName>kashmiri</ksName>
+    <kuName>kurde</kuName>
+    <kyName>kirghize</kyName>
+    <laName>latin</laName>
+    <lbName>luxembourgeois</lbName>
+    <lnName>lingala</lnName>
+    <loName>lao</loName>
+    <ltName>lituanien</ltName>
+    <lvName>letton</lvName>
+    <mgName>malgache</mgName>
+    <miName>maori</miName>
+    <mkName>macédonien</mkName>
+    <mlName>malayalam</mlName>
+    <mnName>mongol</mnName>
+    <moName>moldave</moName>
+    <mrName>marathe</mrName>
+    <msName>malais</msName>
+    <mtName>maltais</mtName>
+    <myName>birman</myName>
+    <naName>nauruan</naName>
+    <neName>népalais</neName>
+    <nlName>néerlandais</nlName>
+    <noName>norvégien</noName>
+    <ocName>occitan</ocName>
+    <omName>oromo</omName>
+    <orName>oriya</orName>
+    <paName>pendjabi</paName>
+    <plName>polonais</plName>
+    <psName>pachto</psName>
+    <ptName>portugais</ptName>
+    <quName>quechua</quName>
+    <rmName>romanche</rmName>
+    <rnName>roundi</rnName>
+    <roName>roumain</roName>
+    <ruName>russe</ruName>
+    <rwName>rwanda</rwName>
+    <saName>sanskrit</saName>
+    <sdName>sindhi</sdName>
+    <sgName>sangho</sgName>
+    <shName>serbo-croate</shName>
+    <siName>cinghalais</siName>
+    <skName>slovaque</skName>
+    <slName>slovène</slName>
+    <smName>samoan</smName>
+    <snName>shona</snName>
+    <soName>somali</soName>
+    <sqName>albanais</sqName>
+    <srName>serbe</srName>
+    <ssName>swati</ssName>
+    <stName>sesotho</stName>
+    <suName>soundanais</suName>
+    <svName>suédois</svName>
+    <swName>swahili</swName>
+    <taName>tamoul</taName>
+    <teName>télougou</teName>
+    <tgName>tadjik</tgName>
+    <thName>thaï</thName>
+    <tiName>tigrigna</tiName>
+    <tkName>turkmène</tkName>
+    <tlName>tagalog</tlName>
+    <tnName>tswana</tnName>
+    <toName>tonguien</toName>
+    <trName>turc</trName>
+    <tsName>tsonga</tsName>
+    <ttName>tatar</ttName>
+    <twName>twi</twName>
+    <ugName>ouïghour</ugName>
+    <ukName>ukrainien</ukName>
+    <urName>ourdou</urName>
+    <uzName>ouzbek</uzName>
+    <viName>vietnamien</viName>
+    <voName>volapuk</voName>
+    <woName>wolof</woName>
+    <xhName>xhosa</xhName>
+    <yiName>yiddish</yiName>
+    <yoName>yoruba</yoName>
+    <zaName>zhuang</zaName>
+    <zhName>chinois</zhName>
+    <zuName>zoulou</zuName>
+  </LanguageNames>
   <Main>
     <Menu>
       <File>
@@ -745,7 +890,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
         <CloseOriginal>Retirer original</CloseOriginal>
         <OpenContainingFolder>Ouvrir répertoire contenant les sous-titres</OpenContainingFolder>
         <Compare>&amp;Comparer...</Compare>
-        <Statistics>Statistiques ...</Statistics>
+        <Statistics>Statistiques...</Statistics>
         <Plugins>Plugins...</Plugins>
         <ImportOcrFromDvd>Importer sous-titres OCR de VOB/IFO (DVD)...</ImportOcrFromDvd>
         <ImportOcrVobSubSubtitle>Importer sous-titres OCR de VobSub (sub/idx)...</ImportOcrVobSubSubtitle>
@@ -844,6 +989,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
         <OpenDvd>Ouvrir DVD...</OpenDvd>
         <ChooseAudioTrack>Choisir piste audio</ChooseAudioTrack>
         <CloseVideo>Fermer fichier vidéo</CloseVideo>
+        <SetVideoOffset>Régler décalage vidéo...</SetVideoOffset>
         <ImportSceneChanges>Importer changements de scène...</ImportSceneChanges>
         <RemoveSceneChanges>Supprimer changements de scène...</RemoveSceneChanges>
         <WaveformBatchGenerate>Générer par lots des formes d'onde sonores</WaveformBatchGenerate>
@@ -902,6 +1048,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
         <Find>Rechercher</Find>
         <Replace>Remplacer</Replace>
         <FixCommonErrors>Corriger des erreurs courantes</FixCommonErrors>
+        <RemoveTextForHi>Supprimer texte surdité</RemoveTextForHi>
         <VisualSync>Synchronisation visuelle</VisualSync>
         <SpellCheck>Correcteur d'orthographe</SpellCheck>
         <Settings>Configuration</Settings>
@@ -948,7 +1095,7 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
         <Underline>Souligner</Underline>
         <Color>Couleur...</Color>
         <FontName>Police...</FontName>
-        <Alignment>Alignement ...</Alignment>
+        <Alignment>Alignement...</Alignment>
         <AutoBalanceSelectedLines>Balance automatique (lignes sélec.)...</AutoBalanceSelectedLines>
         <RemoveLineBreaksFromSelectedLines>Supprimer saut de ligne (lignes sélec.)...</RemoveLineBreaksFromSelectedLines>
         <TypewriterEffect>Effet machine à écrire...</TypewriterEffect>
@@ -1038,7 +1185,6 @@ Note: Vérifiez l'espace disque disponible.</WaveFileMalformed>
     <BeforeVisualSync>Avant synchronisation visuelle</BeforeVisualSync>
     <VisualSyncPerformedOnSelectedLines>Synchronisation visuelle effectués sur des lignes sélectionnées</VisualSyncPerformedOnSelectedLines>
     <VisualSyncPerformed>Synchronisation visuelle effectuée</VisualSyncPerformed>
-    <ImportThisVobSubSubtitle>Importer ce sous-titre VobSub ?</ImportThisVobSubSubtitle>
     <FileXIsLargerThan10MB>Fichier supérieure à 10 Mo: {0}</FileXIsLargerThan10MB>
     <ContinueAnyway>Continuer malgré tout ?</ContinueAnyway>
     <BeforeLoadOf>Avant chargement de {0}</BeforeLoadOf>
@@ -1064,10 +1210,13 @@ Le fichier est en lecture seule !</FileXIsReadOnly>
     <OpenVideoFile>Ouvrir fichier vidéo...</OpenVideoFile>
     <NewFrameRateUsedToCalculateTimeCodes>Nouvelle cadence de frame ({0}) a été utilisée pour calculer l'heure de début/fin</NewFrameRateUsedToCalculateTimeCodes>
     <NewFrameRateUsedToCalculateFrameNumbers>Nouvelle cadence de frame ({0}) a été utilisé pour le calcul des numéros de frame de début/fin</NewFrameRateUsedToCalculateFrameNumbers>
-    <FindContinue>L'élément de recherche n'a pas été trouvé. Souhaitez-vous recommencer à partir du haut du document et faire une nouvelle recherche ?</FindContinue>
+    <FindContinue>L'élément de recherche n'a pas été trouvé.
+Souhaitez-vous recommencer à partir du haut du document et faire une nouvelle recherche ?</FindContinue>
     <FindContinueTitle>Poursuivre recherche ?</FindContinueTitle>
-    <ReplaceContinueNotFound>L'élément à remplacer n'a pas été trouvé. Souhaitez-vous recommencer à partir du haut du document et faire une nouvelle recherche ?</ReplaceContinueNotFound>
-    <ReplaceXContinue>L'article cherché a été remplacé {0} fois. Voulez-vous aller vers le haut du document et poursuivre la recherche ?</ReplaceXContinue>
+    <ReplaceContinueNotFound>L'élément à remplacer n'a pas été trouvé.
+Souhaitez-vous recommencer à partir du haut du document et faire une nouvelle recherche ?</ReplaceContinueNotFound>
+    <ReplaceXContinue>L'article cherché a été remplacé {0} fois.
+Voulez-vous aller vers le haut du document et poursuivre la recherche ?</ReplaceXContinue>
     <ReplaceContinueTitle>Continuer de « remplacer » ?</ReplaceContinueTitle>
     <SearchingForXFromLineY>Recherche de '{0}' sur le numéro de ligne {1} ...</SearchingForXFromLineY>
     <XFoundAtLineNumberY>'{0}' trouvé à la ligne {1}</XFoundAtLineNumberY>
@@ -1132,7 +1281,7 @@ Poursuivre ?</SubtitleAppendPrompt>
     <NumberOfNameHits>Nombre de hits pour nom: {0}</NumberOfNameHits>
     <SpellCheck>Correcteur d'orthographe</SpellCheck>
     <BeforeSpellCheck>Avant la vérification orthographique</BeforeSpellCheck>
-    <SpellCheckChangedXToY>Vérification orthographique: Changé '{0}' en '{1} "</SpellCheckChangedXToY>
+    <SpellCheckChangedXToY>Vérification orthographique: Changé '{0}' en '{1}'</SpellCheckChangedXToY>
     <BeforeAddingTagX>Avant d'ajouter &lt;{0}&gt; tag</BeforeAddingTagX>
     <TagXAdded>&lt;{0}&gt; tags ajoutés</TagXAdded>
     <LineXOfY>ligne {0}/{1}</LineXOfY>
@@ -1369,7 +1518,7 @@ Si vous avez modifié ce fichier avec Subtitle Edit vous pourriez trouver une sa
     <CaseSensitive>Sensible à la casse</CaseSensitive>
     <RegularExpression>Expression régulière</RegularExpression>
     <LinesFoundX>Lignes trouvées: {0}</LinesFoundX>
-    <Delete>Effacer</Delete>
+    <Remove>Effacer</Remove>
     <Add>Ajouter</Add>
     <Update>&amp;Mise à jour</Update>
     <Enabled>Activé</Enabled>
@@ -1382,6 +1531,12 @@ Si vous avez modifié ce fichier avec Subtitle Edit vous pourriez trouver une sa
     <Rules>Règles de remplacement</Rules>
     <MoveToTop>Tout en haut</MoveToTop>
     <MoveToBottom>Tout en bas</MoveToBottom>
+    <MoveSelectedRulesToGroup>Déplacer les règles sélectionnées</MoveSelectedRulesToGroup>
+    <Groups>Groupes</Groups>
+    <RulesForGroupX>Règles de remplacement du groupe « {0} »</RulesForGroupX>
+    <GroupName>Nom de groupe</GroupName>
+    <RenameGroup>Renommer le groupe...</RenameGroup>
+    <NewGroup>Nouveau groupe...</NewGroup>
   </MultipleReplace>
   <NetworkChat>
     <Title>Bavarder</Title>
@@ -1540,6 +1695,7 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <DurationMinimumMilliseconds>Durée mini. en millisecondes</DurationMinimumMilliseconds>
     <DurationMaximumMilliseconds>Durée maxi. en millisecondes</DurationMaximumMilliseconds>
     <MinimumGapMilliseconds>Écart mini. en millisecondes</MinimumGapMilliseconds>
+    <MaximumLines>Longueur maxi. en lignes</MaximumLines>
     <SubtitleFont>Police de sous-titre</SubtitleFont>
     <SubtitleFontSize>Taille de police</SubtitleFontSize>
     <SubtitleBold>Gras</SubtitleBold>
@@ -1567,6 +1723,10 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <AutoBackupEveryMinute>Chaque minute</AutoBackupEveryMinute>
     <AutoBackupEveryFiveMinutes>Toutes les 5 minutes</AutoBackupEveryFiveMinutes>
     <AutoBackupEveryFifteenMinutes>Toutes les 15 minutes</AutoBackupEveryFifteenMinutes>
+    <AutoBackupDeleteAfter>Effacer après</AutoBackupDeleteAfter>
+    <AutoBackupDeleteAfterOneMonth>1 mois</AutoBackupDeleteAfterOneMonth>
+    <AutoBackupDeleteAfterThreeMonths>3 mois</AutoBackupDeleteAfterThreeMonths>
+    <AutoBackupDeleteAfterSixMonths>6 mois</AutoBackupDeleteAfterSixMonths>
     <CheckForUpdates>Rechercher des mises à jour</CheckForUpdates>
     <AllowEditOfOriginalSubtitle>Autoriser la modification du sous-titre original</AllowEditOfOriginalSubtitle>
     <PromptDeleteLines>Confirmer la suppression des lignes</PromptDeleteLines>
@@ -1649,6 +1809,7 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <FirstPlusX>+ {0} ligne(s)</FirstPlusX>
     <LastMinusX>̶ {0} ligne(s)</LastMinusX>
     <FixCommonerrors>Corriger les erreurs</FixCommonerrors>
+    <RemoveTextForHi>Supprimer texte surdité</RemoveTextForHi>
     <MergeLinesShorterThan>Fusionner lignes inférieures à</MergeLinesShorterThan>
     <MusicSymbol>Symbole musical</MusicSymbol>
     <MusicSymbolsToReplace>Symboles musicaux à remplacer (séparer par des espaces)</MusicSymbolsToReplace>
@@ -1663,7 +1824,6 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <Key>Clé</Key>
     <TextBox>Textbox</TextBox>
     <UpdateShortcut>Mise à jour</UpdateShortcut>
-    <ShortcutIsNotValid>Raccourci invalide: {0}</ShortcutIsNotValid>
     <ToggleDockUndockOfVideoControls>Attacher/détacher les fenêtres vidéos</ToggleDockUndockOfVideoControls>
     <CreateSetEndAddNewAndGoToNew>Définir la fin, ajouter nouvelle position et y aller</CreateSetEndAddNewAndGoToNew>
     <AdjustViaEndAutoStartAndGoToNext>Ajuster par rapport à la dernière position et aller à la suite</AdjustViaEndAutoStartAndGoToNext>
@@ -1676,12 +1836,15 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <AdjustSetStartTimeKeepDuration>Définir le temps initial, conserver la durée</AdjustSetStartTimeKeepDuration>
     <AdjustSetEndAndOffsetTheRest>Régler la fin, déplacer le reste</AdjustSetEndAndOffsetTheRest>
     <AdjustSetEndAndOffsetTheRestAndGoToNext>Régler la fin, déplacer le reste et passer au suivant</AdjustSetEndAndOffsetTheRestAndGoToNext>
+    <AdjustExtendCurrentSubtitle>Prolonger la durée au sous-titre suivant ou durée maximum</AdjustExtendCurrentSubtitle>
+    <RecalculateDurationOfCurrentSubtitle>Recalculer durée du sous-titre en cours</RecalculateDurationOfCurrentSubtitle>
     <MainCreateStartDownEndUp>Créez la durée de démarrage du début à la fin</MainCreateStartDownEndUp>
     <MergeDialog>Participer à la conversation (Insert traits d'union)</MergeDialog>
     <GoToNext>Aller à la ligne suivante</GoToNext>
     <GoToPrevious>Aller à la ligne précédente</GoToPrevious>
     <GoToCurrentSubtitleStart>Aller au début de la ligne active</GoToCurrentSubtitleStart>
     <GoToCurrentSubtitleEnd>Aller à la fin de la ligne active</GoToCurrentSubtitleEnd>
+    <GoToNextSubtitleAndFocusVideo>Aller à la ligne suivante et définir la position vidéo</GoToNextSubtitleAndFocusVideo>
     <ToggleFocus>Naviguer entre mode liste et zone de texte</ToggleFocus>
     <ToggleDialogDashes>Activer/Désactiver le son</ToggleDialogDashes>
     <Alignment>Aligner (lignes sélectionnées)</Alignment>
@@ -1699,6 +1862,8 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <WaveformPlayNewSelectionEnd>Lecture de la fin de la sélection</WaveformPlayNewSelectionEnd>
     <WaveformPlayFirstSelectedSubtitle>Lecture du premier sous-titre sélectionné</WaveformPlayFirstSelectedSubtitle>
     <WaveformFocusListView>Focus du mode liste</WaveformFocusListView>
+    <WaveformGoToNextSceneChange>Aller au changement de scène suivant</WaveformGoToNextSceneChange>
+    <WaveformToggleSceneChange>Alterner changement de scène</WaveformToggleSceneChange>
     <GoBack1Frame>Une image arrière</GoBack1Frame>
     <GoForward1Frame>Une image avant</GoForward1Frame>
     <GoBack100Milliseconds>100 ms en arrière</GoBack100Milliseconds>
@@ -1707,6 +1872,8 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <GoForward500Milliseconds>500 ms en avant</GoForward500Milliseconds>
     <GoBack1Second>Une seconde en arrière</GoBack1Second>
     <GoForward1Second>Une seconde en avant</GoForward1Second>
+    <GoBack5Seconds>Cinq secondes en arrière</GoBack5Seconds>
+    <GoForward5Seconds>Cinq secondes en avant</GoForward5Seconds>
     <TogglePlayPause>Alterner entre lecture et pause</TogglePlayPause>
     <Pause>Pause</Pause>
     <Fullscreen>Plein écran</Fullscreen>
@@ -1721,7 +1888,7 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <SyntaxColorDurationIfTooSmall>Durée trop courte</SyntaxColorDurationIfTooSmall>
     <SyntaxColorDurationIfTooLarge>Durée trop longue</SyntaxColorDurationIfTooLarge>
     <SyntaxColorTextIfTooLong>Texte trop long</SyntaxColorTextIfTooLong>
-    <SyntaxColorTextMoreThanXLines>Nombre de lignes supérieur à :</SyntaxColorTextMoreThanXLines>
+    <SyntaxColorTextMoreThanMaxLines>Nombre de lignes supérieur à {0}</SyntaxColorTextMoreThanMaxLines>
     <SyntaxColorOverlap>Chevauchement de timecode</SyntaxColorOverlap>
     <SyntaxErrorColor>Couleur - Erreur</SyntaxErrorColor>
     <GoToFirstSelectedLine>Aller à la ligne sélectionnée en premier</GoToFirstSelectedLine>
@@ -1731,6 +1898,8 @@ peuvent modifier le même fichier de sous-titres (collaboration)</Information>
     <ToggleTranslationMode>Basculer le mode de traduction</ToggleTranslationMode>
     <SwitchOriginalAndTranslation>Permuter original et traduction</SwitchOriginalAndTranslation>
     <MergeOriginalAndTranslation>Fusionner original et traduction</MergeOriginalAndTranslation>
+    <MergeWithNext>Fusionner avec suivante</MergeWithNext>
+    <MergeWithPrevious>Fusionner avec précédente</MergeWithPrevious>
     <ShortcutIsAlreadyDefinedX>Raccourci déjà défini:
 {0}</ShortcutIsAlreadyDefinedX>
     <ToggleTranslationAndOriginalInPreviews>Basculer l'aperçu entre la traduction et l'original audio/vidéo</ToggleTranslationAndOriginalInPreviews>
@@ -1767,6 +1936,8 @@ Veuillez réessayer plus tard.</DownloadMpvFailed>
     <Title>Régler décalage vidéo</Title>
     <Description>Régler décalage vidéo (sous-titres ne devraient pas suivre la durée réelle de la vidéo, ex : +10 hours)</Description>
     <RelativeToCurrentVideoPosition>Par rapport à la position de la vidéo en cours</RelativeToCurrentVideoPosition>
+    <KeepTimeCodes>Conserver timecodes (ne pas ajouter le décalage vidéo)</KeepTimeCodes>
+    <Reset>Réinitialiser</Reset>
   </SetVideoOffset>
   <ShowEarlierLater>
     <Title>Visualiser les sous-titres plus tôt/tard</Title>
@@ -1809,7 +1980,7 @@ Veuillez réessayer plus tard.</DownloadMpvFailed>
     <AddXToNamesEtc>Ajouter '{0}' à la liste nom/etc</AddXToNamesEtc>
     <AutoFixNames>Correction automatique seulement si la casse diffère</AutoFixNames>
     <CheckOneLetterWords>Rechercher les mots inconnus à une lettre</CheckOneLetterWords>
-    <TreatINQuoteAsING>Traiter les mots terminant par " in" en " ing" (anglais uniquement)</TreatINQuoteAsING>
+    <TreatINQuoteAsING>Traiter les mots terminant par "in'" en "ing" (anglais uniquement)</TreatINQuoteAsING>
     <ImageText>Texte de l'image</ImageText>
     <SpellCheckCompleted>Vérification d'orthographe terminée</SpellCheckCompleted>
     <SpellCheckAborted>Vérification d'orthographe interrompue</SpellCheckAborted>
@@ -2096,6 +2267,17 @@ Veuillez réessayer plus tard.</DownloadMpvFailed>
     <Title>Définir facteur non italique</Title>
     <Description>Ramène l'angle d'inclinaison des caractères italiques à zero. Il faut que l'image de référence est italiqué.</Description>
   </VobSubOcrSetItalicFactor>
+  <Watermark>
+    <Title>Filigrane numérique</Title>
+    <WatermarkX>Filigrane: {0}</WatermarkX>
+    <GenerateWatermarkTitle>Générer filigrane numérique</GenerateWatermarkTitle>
+    <SpreadOverEntireSubtitle>Étaler sur tous les sous-titres</SpreadOverEntireSubtitle>
+    <CurrentLineOnlyX>Ligne sélectionnée: {0}</CurrentLineOnlyX>
+    <Generate>&amp;Générer</Generate>
+    <Remove>&amp;Supprimer</Remove>
+    <BeforeWatermark>Avant filigrane numérique</BeforeWatermark>
+    <ErrorUnicodeEncodingOnly>Pour créer des filigranes numériques le codage Unicode est requis.</ErrorUnicodeEncodingOnly>
+  </Watermark>
   <Waveform>
     <ClickToAddWaveform>Cliquer pour ajouter une forme sonore</ClickToAddWaveform>
     <ClickToAddWaveformAndSpectrogram>Cliquer pour ajouter onde/spectrogramme</ClickToAddWaveformAndSpectrogram>
@@ -2114,8 +2296,10 @@ Veuillez réessayer plus tard.</DownloadMpvFailed>
     <ShowWaveformAndSpectrogram>Montrer forme d'onde et spectrogramme</ShowWaveformAndSpectrogram>
     <ShowWaveformOnly>Montrer forme d'onde</ShowWaveformOnly>
     <ShowSpectrogramOnly>Montrer spectrogramme</ShowSpectrogramOnly>
+    <AddSceneChange>Ajouter changement de scène</AddSceneChange>
+    <RemoveSceneChange>Supprimer changement de scène</RemoveSceneChange>
     <GuessTimeCodes>Supposer timecode...</GuessTimeCodes>
-    <SeekSilence>Recherche silence ...</SeekSilence>
+    <SeekSilence>Recherche silence...</SeekSilence>
   </Waveform>
   <WaveformGenerateTimeCodes>
     <Title>Deviner timecodes</Title>

@@ -413,6 +413,146 @@
   <Interjections>
     <Title>Узвици</Title>
   </Interjections>
+  <LanguageNames>
+    <aaName>Афарски</aaName>
+    <abName>абхаски</abName>
+    <afName>африканс</afName>
+    <amName>амхарски</amName>
+    <arName>арапски</arName>
+    <asName>асамски</asName>
+    <ayName>Ајмара</ayName>
+    <azName>азербејџански</azName>
+    <baName>башкирски</baName>
+    <beName>белоруски</beName>
+    <bgName>бугарски</bgName>
+    <biName>Бислама</biName>
+    <bnName>бенгалски</bnName>
+    <boName>тибетански</boName>
+    <brName>бретонски</brName>
+    <caName>каталонски</caName>
+    <coName>корзикански</coName>
+    <csName>чешки</csName>
+    <cyName>велшки</cyName>
+    <daName>дански</daName>
+    <deName>немачки</deName>
+    <dzName>џонга</dzName>
+    <elName>грчки</elName>
+    <enName>енглески</enName>
+    <eoName>есперанто</eoName>
+    <esName>шпански</esName>
+    <etName>естонски</etName>
+    <euName>баскијски</euName>
+    <faName>персијски</faName>
+    <fiName>фински</fiName>
+    <fjName>фиџијски</fjName>
+    <foName>фарски</foName>
+    <frName>француски</frName>
+    <fyName>западни фризијски</fyName>
+    <gaName>ирски</gaName>
+    <gdName>Шкотски Галски</gdName>
+    <glName>галицијски</glName>
+    <gnName>гварани</gnName>
+    <guName>гуџарати</guName>
+    <haName>хауса</haName>
+    <heName>хебрејски</heName>
+    <hiName>хинди</hiName>
+    <hrName>хрватски</hrName>
+    <huName>мађарски</huName>
+    <hyName>јерменски</hyName>
+    <iaName>Интерлингва</iaName>
+    <idName>индонежански</idName>
+    <ieName>Међујезички</ieName>
+    <ikName>Унупиак</ikName>
+    <isName>исландски</isName>
+    <itName>италијански</itName>
+    <iuName>инуктитут</iuName>
+    <jaName>јапански</jaName>
+    <jvName>јавански</jvName>
+    <kaName>грузијски</kaName>
+    <kkName>казашки</kkName>
+    <klName>калалисут</klName>
+    <kmName>кмерски</kmName>
+    <knName>канада</knName>
+    <koName>корејски</koName>
+    <ksName>кашмирски</ksName>
+    <kuName>курдски</kuName>
+    <kyName>киргиски</kyName>
+    <laName>латински</laName>
+    <lbName>луксембуршки</lbName>
+    <lnName>лингала</lnName>
+    <loName>лаошки</loName>
+    <ltName>литвански</ltName>
+    <lvName>летонски</lvName>
+    <mgName>малгашки</mgName>
+    <miName>маорски</miName>
+    <mkName>македонски</mkName>
+    <mlName>малајалам</mlName>
+    <mnName>монголски</mnName>
+    <mrName>марати</mrName>
+    <msName>малајски</msName>
+    <mtName>малтешки</mtName>
+    <myName>бурмански</myName>
+    <naName>Науру</naName>
+    <neName>непалски</neName>
+    <nlName>холандски</nlName>
+    <noName>Норвешки</noName>
+    <ocName>Провансалски</ocName>
+    <omName>оромо</omName>
+    <orName>орија</orName>
+    <paName>панџаби</paName>
+    <plName>пољски</plName>
+    <psName>паштунски</psName>
+    <ptName>португалски</ptName>
+    <quName>кечуа</quName>
+    <rmName>рето-романски</rmName>
+    <rnName>рунди</rnName>
+    <roName>румунски</roName>
+    <ruName>руски</ruName>
+    <rwName>кинјаруанда</rwName>
+    <saName>санскрит</saName>
+    <sdName>синди</sdName>
+    <sgName>санго</sgName>
+    <shName>Српскохрватски</shName>
+    <siName>синхалски</siName>
+    <skName>словачки</skName>
+    <slName>словеначки</slName>
+    <smName>Самоански</smName>
+    <snName>шона</snName>
+    <soName>сомалски</soName>
+    <sqName>албански</sqName>
+    <srName>српски</srName>
+    <ssName>Свати</ssName>
+    <stName>Сесото</stName>
+    <suName>сундански</suName>
+    <svName>шведски</svName>
+    <swName>свахили</swName>
+    <taName>тамилски</taName>
+    <teName>телугу</teName>
+    <tgName>таџички</tgName>
+    <thName>тајландски</thName>
+    <tiName>тигриња</tiName>
+    <tkName>туркменски</tkName>
+    <tlName>Тагалски</tlName>
+    <tnName>Тсвана</tnName>
+    <toName>тонга</toName>
+    <trName>турски</trName>
+    <tsName>Тсонга</tsName>
+    <ttName>татарски</ttName>
+    <twName>Тви</twName>
+    <ugName>ујгурски</ugName>
+    <ukName>украјински</ukName>
+    <urName>урду</urName>
+    <uzName>узбечки</uzName>
+    <viName>вијетнамски</viName>
+    <voName>Волапук</voName>
+    <woName>волоф</woName>
+    <xhName>коса</xhName>
+    <yiName>Јидиш</yiName>
+    <yoName>јоруба</yoName>
+    <zaName>Жуанг</zaName>
+    <zhName>кинески</zhName>
+    <zuName>зулу</zuName>
+  </LanguageNames>
   <Main>
     <Menu>
       <File>
@@ -642,7 +782,6 @@
     <BeforeVisualSync>Извршено визуелно усклађивање</BeforeVisualSync>
     <VisualSyncPerformedOnSelectedLines>Извршено је визуелно усклађивање на изабраним линијама</VisualSyncPerformedOnSelectedLines>
     <VisualSyncPerformed>Визуелно усклађивање је извршено.</VisualSyncPerformed>
-    <ImportThisVobSubSubtitle>Увести овај Вобсаб титл?</ImportThisVobSubSubtitle>
     <FileXIsLargerThan10MB>Датотека је већа од 10 MB: {0}</FileXIsLargerThan10MB>
     <ContinueAnyway>Ипак наставити?</ContinueAnyway>
     <BeforeLoadOf>Пре учитавања {0}</BeforeLoadOf>
@@ -848,7 +987,7 @@
     <CaseSensitive>&amp;Подударање</CaseSensitive>
     <RegularExpression>&amp;Регуларан израз</RegularExpression>
     <LinesFoundX>Пронађено линија: {0}</LinesFoundX>
-    <Delete>Обриши</Delete>
+    <Remove>Обриши</Remove>
     <Add>&amp;Додај</Add>
     <Update>&amp;Ажурирај</Update>
     <Enabled>Омогућено</Enabled>
@@ -1032,7 +1171,6 @@
     <Key>Тастер:</Key>
     <TextBox>Поље за текст</TextBox>
     <UpdateShortcut>&amp;Промени</UpdateShortcut>
-    <ShortcutIsNotValid>Пречица није исправна: {0}</ShortcutIsNotValid>
     <ToggleDockUndockOfVideoControls>Закачи/откачи видео контроле</ToggleDockUndockOfVideoControls>
     <AdjustViaEndAutoStartAndGoToNext>Прилагоди преко завршног положаја и пређи на следећи</AdjustViaEndAutoStartAndGoToNext>
   </Settings>
